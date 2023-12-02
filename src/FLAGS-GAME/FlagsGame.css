@@ -1,0 +1,238 @@
+body {
+    background: linear-gradient(90deg, rgb(0, 13, 32), rgb(0, 115, 230));
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.body {
+    background-image: url('/public/Flags/bgEarth.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 180px 10px rgba(255, 255, 255, 0.322);
+    /* transition: transform 0.2s; */
+}
+
+#name-flag{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: linear-gradient(90deg, rgb(0, 99, 212), rgb(0, 162, 255));
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid white;
+    outline: 1px solid rgb(0, 99, 212);
+    box-shadow: 3px 3px 10px 1px rgb(0, 87, 185);
+    transition:  box-shadow 0.3s;
+    cursor: pointer;
+}
+#flag-name{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: linear-gradient(90deg, rgb(0, 162, 255), rgb(0, 99, 212));
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    outline: 1px solid rgb(0, 99, 212);
+    box-shadow: -3px 3px 10px 1px rgb(0, 87, 185);
+    transition:  box-shadow 0.3s;
+    cursor: pointer;
+}
+#name-flag:hover{
+    box-shadow: 0 0 1000px 10px rgb(0, 86, 185);
+    transform: scale(0.9);
+}
+#flag-name:hover{
+    box-shadow: 0 0 1000px 10px rgb(0, 86, 185);
+    transform: scale(0.9);
+}
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 80%;
+    margin: auto;
+    height: 300px;
+}
+#titleGame{
+    color: rgb(255, 255, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size:30px;
+    position: relative;
+    top: 100px;
+}
+.anotherLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+}
+.anotherBottons {
+    cursor: pointer;
+    width: 300px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    /* background: linear-gradient(90deg, rgba(0, 162, 255, 0.295), rgb(0, 99, 212)); */
+    background-color: rgba(0, 117, 220, 0.342);
+    padding: 5px;
+    border: 1.5px solid white;
+    border-radius: 10px;
+    outline: 1px solid rgb(0, 99, 212);
+    box-shadow: -3px 3px 10px 1px rgb(0, 87, 185);
+    transition:  box-shadow 0.3s;
+    backdrop-filter: blur(5px);
+}
+.anotherBottons:hover{
+    box-shadow: 0 0 100px 10px rgb(0, 86, 185);
+    transform: scale(0.99);
+}
+.Goback{
+    width: 30px;
+    height: 30px;
+    color: white;
+    background: linear-gradient(90deg, rgb(0, 162, 255), rgb(0, 99, 212));
+    border-radius:  5px;
+    border: none;
+    outline: none;
+    margin: 10px;
+    position: relative;
+    right: 160px;
+    box-shadow: 0 0 100px 100px rgba(255, 255, 255, 0.516);
+    cursor: pointer;
+}
+.game {
+    background:transparent;
+    width: 370px;
+    height: 480px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    color: white;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+.game h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    text-shadow: 2px  2px 20px rgb(0, 106, 220), 2px  2px 20px rgb(0, 106, 220), 2px  2px 20px rgb(0, 106, 220);
+    position: relative;
+    top: 20px;
+    color: rgb(0, 123, 255);
+}
+.options {
+    background-color: rgba(0, 136, 255, 0.084);
+    width: 90%;
+    margin: auto;
+    border-radius: 13px;
+    padding: 20px;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 30px;
+    backdrop-filter: blur(3px);
+    cursor: pointer;
+}
+.optionSection{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.option{
+    width: 100px;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    transition: box-shadow 0.1s;
+}
+.option:hover{
+    box-shadow: 0 0 100px 4px rgb(0, 126, 237);
+}
+.option img {
+    width:100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.question {
+    color: white;
+    background: linear-gradient(90deg, rgb(0, 162, 255), rgb(0, 99, 212));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    border-radius: 10px;
+    margin: auto;
+    width: 80%;
+}
+
+.section-score {
+    background-color: aliceblue;
+    color: rgb(0, 99, 212) ;
+    padding: 30px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+.score {
+    color: white;
+    background: linear-gradient(90deg, rgb(0, 162, 255), rgb(0, 99, 212));
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 10px rgb(0, 149, 255), 0 0 10px white;
+}
+.great {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 10px rgb(0, 149, 255), 0 0 10px white;
+    color: white;
+    background: linear-gradient(90deg, rgb(0, 56, 141), rgb(54, 144, 246));
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 100%;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.btnOption {
+    cursor: pointer;
+    background: linear-gradient(90deg, rgb(0, 56, 141), rgb(54, 144, 246));
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    width: 100px;
+    border: 1.5px solid white;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 0 0 100px 5px rgba(1, 145, 228, 0.795);
+}
+.btnOption:hover {
+    box-shadow: 0px 0px 100px 10px rgb(0, 166, 255);
+}
+#earth {
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    margin: auto;
+    object-fit: cover;
+    mix-blend-mode:hard-light;
+}
