@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/FlagsGame/static/css/main.b5144f03.css",
+    "main.js": "/FlagsGame/static/js/main.db64e771.js",
+    "static/media/bgEarth.jpg": "/FlagsGame/static/media/bgEarth.50a8491926b6175260d4.jpg",
+    "index.html": "/FlagsGame/index.html",
+    "main.b5144f03.css.map": "/FlagsGame/static/css/main.b5144f03.css.map",
+    "main.db64e771.js.map": "/FlagsGame/static/js/main.db64e771.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5144f03.css",
+    "static/js/main.db64e771.js"
+  ]
+}
